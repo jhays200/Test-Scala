@@ -15,11 +15,6 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
 	"org.apache.httpcomponents" % "httpclient" % "4.2.3",
-	"io.spray" %%  "spray-json" % "1.2.3"
-	//"io.spray" % "spray-io" % "1.1-M7",
-	//"io.spray" % "spray-http" % "1.1-M7",
-	//"io.spray" % "spray-util" % "1.1-M7",
-	//"com.typesafe.akka" %% "akka-actor" % "2.1.1",
-	//"com.typesafe.akka" %% "akka-slf4j" % "2.1.1",
-	//"ch.qos.logback" % "logback-classic" % "1.0.9"
+	"io.spray" %%  "spray-json" % "1.2.3",
+	"org.jeromq" % "jeromq" % "0.2.0"
 )
